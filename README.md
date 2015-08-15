@@ -3,8 +3,8 @@ Use this plugin to integrate social login/ social actions (share, invite, etc.) 
 Currently, it support social login for Facebook and GooglePlus only. Shall be extended in future. Also supports Social invite for Facebook and GooglePlus.
 
 <b>How to use:</b>
-include following code in head section of your html
-<b>
+include following code in head section of your html<br>
+<code>
 <script type='text/javascript' src='https://github.com/cseer90/js-social-plugin/blob/master/social.plugin.js'></script>
 $social.setup.id.facebook = 'add-your-facebook-app-id-here';
 $social.setup.id.googleplus = 'add-your-googleplus-app-id-here';
@@ -16,4 +16,4 @@ $social.invite_container = '.invite_buttons';//wrapper ID or class where social 
 $social.onLoginSuccess = 'your-function-name';//function that should be called after successful login
 $social.onLoginFail = 'your-function-name';//function that should be called after login fails
 $social.onInviteSuccess = 'your-function-name';//function that should be called on successful sharing
-</b>
+</code>
